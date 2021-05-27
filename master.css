@@ -1,0 +1,86 @@
+
+.main{
+  display: flex;
+  height: 100%;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  margin-top:10%;
+}
+.container{
+  display: flex;
+}
+.card{
+  width:200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom:30px;
+  color:#fff;
+}
+.a1{
+  background-color:#E28525 ;
+  border-radius: 10px 0 0 10px ;
+}
+.a1 a{
+  color:#E28525;
+}
+.a2{
+  background-color: #016972;
+}
+.a2 a{
+  color:#016972;
+}
+.a3{
+  background-color: #00403F;
+  border-radius:0 10px 10px 0;
+}
+.a3 a{
+  color: #00403F;
+}
+.logo{
+  display: block;
+  padding-top: 50px;
+}
+.heading{
+   padding-top:30px;
+   padding-bottom:30px;
+   font-family: 'Antonio', sans-serif;
+   font-size: 40px;
+   text-transform: uppercase;
+}
+.para{
+  opacity: 0.7;
+  font-family: sans-serif;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.button{
+  background-color: #fff;
+  padding:10px 30px;
+  border-radius: 30px;
+  font-size:15px;
+
+}
+@media only screen and (max-width: 1000px) {
+  .container{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px 10px 50px 10px;
+
+  }
+  .card{
+    height:100%;
+    width:100%;
+  }
+  .a1{
+    border-radius:  10px 10px 0 0;
+  }
+  .a3{
+    border-radius: 0 0 10px 10px;
+  }
+}
